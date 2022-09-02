@@ -1,10 +1,21 @@
+/* Variables */
+/* Base */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  color: rgb(30, 30, 30);
 }
 
+/* Media Queries */
+/* Default */
+/* Media Query Base */
+/* @media (min-width: AAA) and (max-width: AAA) {
+
+}
+*/
 /* NAVBAR */
 nav {
   display: flex;
@@ -41,11 +52,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(52, 52, 52);
 }
 main .content {
   width: 95%;
   margin-bottom: 64px;
-  background-color: rgb(180, 180, 180);
+  background-color: rgba(255, 226, 194, 0.88);
 }
 main .content h1 {
   font-size: 114px;
